@@ -13,10 +13,13 @@ config:
       actions:
         -
           theme: brand
-          text: 博客
+          text: 关于我
           link: /blog/
         -
           theme: alt
-          text: Github →
-          link: https://github.com/pengzhanbo/vuepress-theme-plume
+          text: Myblog →
+          link: https://blog.zhilqy.cloudns.be/
+	
+
 ---
+
