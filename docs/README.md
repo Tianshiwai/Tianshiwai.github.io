@@ -19,7 +19,7 @@ config:
           theme: brand
         -
           text: Github
-          link: https://blog.zhilqy.cloudns.be/
+          link: https://github.com/Tianshiwai/
 
           theme: alt
   -
@@ -55,7 +55,7 @@ config:
         -
           theme: alt
           text: Github
-          link: https://blog.zhilqy.cloudns.be/
+          link: https://github.com/Tianshiwai/
 	
   -
     type: features
@@ -100,7 +100,7 @@ config:
     type: image-text
     title: 功能
     description: 内置丰富的功能，满足网站一般需求。
-    image: /images/plume-1.svg
+    image:  /images/plume-2.jpg
     list:
       -
         title: 文章信息
@@ -121,7 +121,7 @@ config:
     type: text-image
     title: 博客
     description: 主题默认支持博客，生成你的个人博客。
-    image: /images/plume-2.svg
+    image:  /images/plume-2.jpg
     list:
       -
         title: 文章列表
@@ -138,7 +138,7 @@ config:
     type: profile
     name: pengzhanbo
     description: 即使慢，驰而不息，纵会落后，纵会失败，但必须能够到达他所向的目标。
-    avatar: /images/avatar.png
+    avatar:  /images/plume-2.jpg
 
     
   -
