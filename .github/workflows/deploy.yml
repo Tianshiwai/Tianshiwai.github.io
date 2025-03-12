@@ -37,7 +37,13 @@ jobs:
       # Run the build script
       - name: Build VuePress site
         run: npm run docs:build
-
+# 在 docs/.vuepress/dist 目录下创建 CNAME 文件并写入内容（从环境变量获取）
+      - name: Create CNAME file
+        run: |
+          echo ${{ secrets.CUSTOM_DOMAIN }} > docs/.vuepress/dist/CNAME
+          chmod +x docs/.vuepress/dist/CNAME
+        env:
+          CUSTOM_DOMAIN: ${{ secrets.CUSTOM_DOMAIN }}
 
       # 查看 workflow 的文档来获取更多信息
       # @see https://github.com/crazy-max/ghaction-github-pages
